@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+section {
+  width: 100%;
+}
+
+#banner-background {
+  background-image: url("images/masaaki-komori-Z8TQv3yKQd4-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -5555;
+  height: 90vh;
+}
+
+.banner-details {
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  padding-top: 30vh;
+}
+
+.title-text {
+  font-size: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  padding-bottom: 10%;
+}
+
+.button-links {
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-left: 10px!important;
+  margin-right: 10px!important;
+  font-size: 18px;
+  transition: .7s;
+}
+
+.button-links:hover {
+  background: transparent;
+  color: orangered;
+}
+
+
+
+/*----------------First Setion-------------*/
+
+
+#header {
+  width: 100%;
+  background: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin: auto;
+  z-index: 55;
+  margin-bottom: 20px!important;
+}
+
+nav {
+  width: 100%;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.nav-pane {
+  width: 92%;
+  margin: 0 auto;
+  display: flex;
+}
+
+
+
+.grey {
+  color: grey;
+  font-size: 20px;
+}
+
+.newsletter {
+  margin: auto;
+  text-align: left;
+  flex-basis: 40%;
+  width: 50%;
+  padding-right: 50px;
+}
+
+
+.right-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo-section {
+  display: block;
+  padding: 0 10px;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.large-title {
+  font-size: 60px;
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.small-title {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.social-media {
+  display: flex;
+  margin: auto 5px ;
+  width: fit-content;
+}
+
+.media-icons {
+  width: 30%;
+  margin-left: 0;
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.menu-div {
+  background: grey;
+  padding: 0;
+  width: fit-content;
+  align-items: right;
+  margin: auto 0;
+}
+
+.menu-btn {
+  width: 30%;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#pane {
+  top: 0;
+  right: -250px;
+  position: fixed;
+  background: grey;
+  height: 100vh;
+  width: 15%;
+  padding-left: 15px;
+  padding-top: 15px;
+  transition: .7s;
+}
+body {
+  position: relative;
+}
+
+.close-image {
+  width: 20%;
+  cursor: pointer;
+}
+
+#pane {
+  z-index: 500;
+}
+
+.btns {
+  margin-top: 50px;
+}
+.btns li {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.btns li a {
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: .5s;
+}
+
+.btns li a:hover {
+  color: orangered;
+}
+
+/*----------------Second Setion-------------*/
+
+#intro {
+  background: white;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.intro-div {
+  display: flex;
+}
+
+.image-div {
+  margin-top: 15px;
+  position: relative;
+
+}
+.intro-image {
+  width: 100%;
+  border-radius: 2%;
+}
+
+.intro-details {
+  position: relative;
+  top: 60%;
+  right: 20%;
+  background: white;
+  margin: auto;
+  align-items: center;
+  padding: 2% 5%;
+  opacity: .8;
+  border-radius: 5%;
+
+}
+
+.intro-title {
+  opacity: 1;
+  color: black;
+  font-size: 35px;
+  text-align: left;
+}
+
+span {
+  font-size: 26px;
+  color: orangered;
+  font-family: cursive
+}
+
+.intro-details-small {
+  color: black;
+  opacity: 1;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*----------------Third Setion-------------*/
+
+#third-section {
+  width: 100%;
+  background: #efefef;
+}
+
+.container-div {
+  width: 92%;
+  margin: auto;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+.container-title {
+  align-content: center;
+  margin: auto;
+  text-align: center;
+  padding-top: 15px;
+}
+.offer-text {
+  font-size: 35px;
+  color: orangered;
+}
+
+.container-row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: auto;
+  margin: 50px auto 0 ;
+}
+
+.info-container {
+  display: block;
+  align-items: center;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  flex-basis: 28%;
+  max-width: 95%;
+  width: fit-content;
+
+}
+
+.info-container img {
+  width: 80%;
+}
+
+.info-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2%;
+  border-radius: 2%;
+  z-index: 5;
+  opacity: 0;
+  transition: .7s;
+}
+
+.cont-title {
+  text-align: center;
+}
+
+.low-image {
+  margin-top: 50px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: grey;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 3;
+  transition: .5s;
+
+}
+
+.info-container:hover .overlay {
+  opacity: .7;
+}
+
+.info-container:hover .info-details {
+  opacity: 1;
+  bottom: 50%;
+}
+
+.info-text {
+  margin-top: 20px;
+  margin-left: 10px;
+  color: white;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  line-height: 25px;
+  text-align: left;
+}
+
+
+/*----------------Fourth Setion-------------*/
+
+#fourth-section {
+  margin-top: 10%;
+  background: white;
+  width: 100%;
+  padding: 1%;
+}
+
+.subscribe-div {
+  width: 80%;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 5%;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.subscribe-text {
+  color: grey;
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input[type = email] {
+  background: #efefef;
+  color: black;
+  padding: 12px 20px;
+  margin: auto 10px;
+  width: 50%;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.sub-link {
+  background: rgb(65, 61, 61);
+  padding: 15px;
+  color: whitesmoke;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.lower-div {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.follow-text {
+  font-weight: 20px;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+hr {
+  width: 50%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+#bottom-section {
+  margin: auto 0;
+  padding: 0;
+  width: 100%;
+}
+
+#bottom-section img{
+  width: 19%;
+  margin: 0;
+  padding: 0;
+}
